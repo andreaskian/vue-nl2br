@@ -15,7 +15,6 @@ export default {
     },
   },
   render(createElement, context) {
-    debugger;
     return createElement(context.props.tag, {
       'class': context.props.className
     }, context.props.text.split('\n').reduce((accumulator, string) => {
